@@ -1,0 +1,17 @@
+body{
+  font-family: Arial;
+}
+.card-collection{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.card{
+  cursor: pointer;
+ 
+}
+ .card.standout{
+  border: 1px solid red;
+}
+h1,h2,h3,h4,h5,p{
+  text-align: center;
+}
